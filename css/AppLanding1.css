@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --f-family-first:"Raleway", sans-serif;;
+    --f-family-secondry:"lato", sans-serif;
+}
+
+/* first section */
+.first-section-navbar {
+    background-image: url(../img-page2/home-bg.ccee2344.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    
+}
+.navbar {
+    height: 120px;
+    z-index: 1000;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    padding-left: 25px;
+    font-family: "lato", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    font-size: 15px;
+    
+}
+
+.first-section .carousel-caption{
+    top: 120px;
+    height: 600px;
+}
+
+
+.slider-img img {
+    height: 500px;
+}
+
+.detiles {
+    font-family: "Raleway", sans-serif;
+    margin: 100px  10px;
+    line-height: 70px;
+}
+.detiles h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.detiles p {
+    font-family: "lato", sans-serif;
+    color: white;
+}
+/*End first section */
+
+/* second section */
+
+div.icons {
+    margin-top: 120px;
+}
+.card {
+    text-align: center;
+    align-items: center;
+    border: none;
+}
+.fa-leaf,.fa-laptop, .fa-apple , .fa-paintbrush{
+    border-radius: 50%;
+    border: 2px solid #BC6372;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: #bc6372;
+}
+.card:hover {
+    .fa-leaf, .fa-laptop, .fa-apple ,.fa-paintbrush{
+    background-color: #BC6372;
+    color: white;
+    transition: 1s;
+    border-radius: 50%;
+    }
+    
+}
+.card {
+    h5{
+        font-size: 17px;
+    }
+    p{
+        font-size: 10px;
+        color: gray;
+    }
+}
+/*end second section */
+
+/* section three */
+.third-section {
+    background-image: url(../img-page2/bestapp-bg.1cfa7b2c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.third-section .card {
+    padding-top: 100px;
+}
+/* .third-section .card .col-md-8 {
+    width: 50%;
+} */
+.third-section .card-body::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #9F9F9F;
+    top: 0;
+
+}
+.third-section .card-body::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #9F9F9F;
+    border-radius: 50%;
+    background-color: #9F9F9F;
+    top:99px;
+    left: 331px;
+
+}
+.third-section img {
+    height: 500px;
+    width: 500px;
+}
+
+.third-section .row{
+    align-items: center;
+}
+.third-section .card .card-body h1 , h6 , p{
+   padding-bottom: 20px;
+}
+.third-section h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--f-family-first);
+    font-weight: bold;
+}
+.third-section h6 {
+    font-size: 10px;
+    color: white;
+    font-family: var(--f-family-secondry);
+}
+.third-section p {
+    color: white;
+    line-height: 30px;
+    font-size: 0.9rem;
+    font-family: var(--f-family-secondry);
+}
+/*End section three */
+
+
+/* section four */
+.fourth-section .feature {
+text-align: center;
+margin-top: 110px;
+position: relative;
+}
+.feature h1 {
+    font-family: var(--f-family-first);
+    font-weight: bold;
+}
+.feature p {
+    font-family: var(--f-family-secondry);
+    font-size: 12px;
+    color: gray;
+}
+
+.fourth-section .feature::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #9F9F9F;
+    bottom: 111%;
+
+}
+.fourth-section .feature::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #9F9F9F;
+    border-radius: 50%;
+    background-color: #9F9F9F;
+    top:-20%;
+    left:49.7%;
+
+}
+
+.fa-gears,.fa-envelope, .fa-location-dot , .fa-calendar,.fa-circle-play,.fa-cloud,.fa-comments,.fa-user-plus{
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: gray;
+    
+}
+.card:hover {
+    .fa-gears,.fa-envelope, .fa-location-dot , .fa-calendar,.fa-circle-play,.fa-cloud,.fa-comments,.fa-user-plus{
+    /* background-color: ; */
+    color:#bc6372;
+    border-color: #bc6372;
+    transition: 1s;
+    border-radius: 50%;
+    }
+    
+}
+.card {
+    h5{
+        font-size: 17px;
+    }
+    p{
+        font-size: 10px;
+        color: gray;
+    }
+}
+/*end section four */
+
+/* section five */
+.fifth-section{
+    background-image: url(../img-page2/clients-bg.7fd8f898.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 400px; */
+}
+
+.fifth-section .review{
+    text-align: center;
+    padding-top: 110px;
+    position: relative;
+    color: white;
+    margin-bottom: 50px;
+}
+.fifth-section .review::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #9F9F9F;
+    top: 0%;
+
+}
+.fifth-section .review::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #9F9F9F;
+    border-radius: 50%;
+    background-color: #9F9F9F;
+    top: 48%;
+    left:49.7%;
+
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+}
+
+.carousel-item img {
+    margin: 0 auto;
+}
+.review-detiles {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+.review-detiles h1 {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: var(--f-family-first);
+    color: white;
+}
+.review-detiles h1 span{
+    font-size: 12px;
+}
+.review-detiles p {
+    font-size: 14px;
+    font-family: var(--f-family-secondry);
+    color: whitesmoke;
+    margin: 40px;
+    line-height: 25px;
+}
+.carousel-indicators .button {
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+}
+/*end section five */
+
+/* section sex */
+.sixth-section .review{
+    text-align: center;
+    padding-top: 110px;
+    position: relative;
+    color: white;
+    margin-bottom: 50px;
+}
+.sixth-section .review{
+    text-align: center;
+    padding-top: 110px;
+    position: relative;
+    color: black;
+    margin-bottom: 50px;
+}
+.sixth-section .review::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #9F9F9F;
+    top: 0%;
+
+}
+.sixth-section .review::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #9F9F9F;
+    border-radius: 50%;
+    background-color: #9F9F9F;
+    top: 48%;
+    left:49.7%;
+
+}
+
+
+
+@media (max-width:1440px){
+    .third-section .card-body::after{
+        left: 331px;
+    }
+    
+}
+@media (max-width:1024px){
+    .third-section .card-body::after{
+        left: 241px;
+    }
+    .review-detiles{
+        width: 80%;
+    }
+    
+}
+@media (max-width:990px){
+    .navbar-nav.navbar-nav .nav-item{
+        background-color: white;
+        border-bottom: 1px solid black;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: black;
+        padding: 15px 10px;
+    }
+}
+@media (max-width:769px){
+    .third-section {
+        height: 700px;
+    }
+    .third-section .row {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .third-section .card-body{
+        width: 100%;
+    }
+    .third-section img{
+        height: 300px;
+        width: 350px;
+    }
+    .third-section .card-body::after{
+        left: 355px;
+    }
+    .review-detiles{
+        width: 95%;
+    }
+}
+@media (max-width: 426px){
+
+    /* .first-section .carousel-caption{
+        top: 0px;
+    } */
+    .first-section-navbar{
+        height: 700px;
+    }
+    div .carousal-detiles.d-flex{
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    img.d-block {
+        height: 300px;
+    }
+
+    .detiles{
+        margin: 0;
+        padding: 0;
+        line-height: 30px;
+    }
+    .detiles h1{
+        font-size: 40px;
+    }
+
+    .third-section {
+        height: 800px;
+    }
+    .third-section .row {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    .third-section h1 {
+        font-size: 15px;
+    }
+    .third-section .card-body::after{
+        left: 197px;
+    }
+
+    .carousel-item img{
+        width: 120px;
+        height: 120px;
+    }
+    .review-detiles{
+        width: 100%;
+    }
+}
+
+/* media */
+
+
